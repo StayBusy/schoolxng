@@ -1,6 +1,18 @@
 /* 		HEADER STYLING 		*/
 
-
+.navbar {
+    height: 50px;
+    font-weight: 600;
+}
+.nav-logo {
+    height: 50px;
+}
+.nav-label {
+    color: #29B2EE;
+}
+.nav-item :active{
+    color: dimgray;
+}
 
 /*     	HOMEPAGE STYLING	  	*/
 
@@ -48,3 +60,42 @@
 
 /*    		FOOTER STYLING  		*/
 
+footer {
+    background-color: #29B2EE;
+}
+.email-input {
+    border: none;
+}
+.table td,
+.table th {
+	border-color: transparent;
+    color: white;
+    font-style: normal;
+}
+.table a {
+    color: white;
+}
+.table a:hover {
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+}
+.copyright {
+    color: white;
+}
+.copyright a {
+    color: blue;
+}
+.scroll-top {
+    background-color: white;
+}
+hr {
+    color: white;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 20%;
+    
+}
+.list-inline-item a {
+    color: white;
+}
